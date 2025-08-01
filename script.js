@@ -26,3 +26,4 @@ while (i < nombres.length) {
   alert(mensajeFinal); // Muestra alerta
   document.getElementById("resultado").textContent = mensajeFinal; // Muestra en HTML
 }
+}
