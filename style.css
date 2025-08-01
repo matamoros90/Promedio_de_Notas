@@ -1,0 +1,50 @@
+/* Fondo general */
+body {
+  margin: 0;
+  padding: 0;
+background: url('5825573.jpg') no-repeat center center fixed;  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Capa de desenfoque / tarjeta */
+.contenedor {
+  max-width: 600px;
+  margin: 100px auto;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+/* Título */
+.contenedor h2 {
+  color: #000; /* negro */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Botón estilizado */
+.contenedor button {
+  padding: 10px 25px;
+  font-size: 16px;
+  color: white;
+  background: linear-gradient(to right, #4a90e2, #007aff);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contenedor button:hover {
+  background: linear-gradient(to right, #007aff, #4a90e2);
+}
+
+/* Resultado (texto debajo del botón) */
+#resultado {
+  margin-top: 20px;
+  color: #000;
+  font-weight: bold;
+}
